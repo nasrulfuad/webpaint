@@ -30,6 +30,8 @@ header{
     color: #fff;
     margin: 0 10px;
     text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 14px;
 }
 
 .nav a:hover{
