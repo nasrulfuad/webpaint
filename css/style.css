@@ -1,23 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
 body{
-    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
 }
 
 header{
-    height: 55px;
-    background-color: #222;
-    padding: 10px 50px;
+    height: 50px;
+    background-color: #1c1c1c;
+    padding: 20px 60px;
     display: grid;
     grid-template-columns: 1fr 5fr;
     align-items: center;
 }
 
 header img{
-    height: 27px;
+    height: 33px;
 }
 .nav ul{
     list-style: none;
@@ -32,158 +29,164 @@ header img{
 }
 
 .nav a{
+    padding: 10px;
     text-decoration: none;
     color: #d0d0d0;
-    margin: 0 10px;
+    margin-right: 8px;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .nav a:hover{
     transition: 300ms;
-    color: #ff636363;
+    color: #f74e4d;
 }
 
 .nav .active{
-    color: #e26262;
+    color: #f74e4d;
 }
 
 .first{
-    background-color: #252525;
+    background-color: #1F1F1F;
     text-align:center;
     padding: 50px;
+    padding-bottom: 50px;
 }
 
 .first h1{
-    color: #999;
+    color: #d0d0d0;
     margin: 0;
-    font-size: 40px;
+    font-weight: 300;
+    font-size: 62px;
 }
 
 .first h1 span{
-    color: #fff;
+    color: #d0d0d0;
+    font-weight: 800;
 }
 
 .first p{
-    color: #999;
-    padding: 0 150px;
-    display: block;
+    color: #d0d0d0;
+    font-size: 42px;
+    font-weight: 300;
+    margin-top: 20px;
 }
 
 .first .btn{
     text-decoration: none;
+    font-family: arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
     color: #fff;
-    padding: 10px 20px;
+    padding: 15px 30px;
     display: inline-block;
-    background-color: #e26262;
-    margin: 10px;
+    margin-top: 20px;
+    background-color: #F74D4C;
     text-transform: uppercase;
-}
-
-.first .btn:hover{
-    background-color: #333;
-    transition: 300ms;
-    box-shadow: 1px 1px 2px black;
+    border-radius: 5px;
 }
 
 .second{
-    background-color: #fff;
-    text-align-last: center;
-    padding: 20px 100px;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
-    background-color: #eee;
-}
-
-.second div{
-    text-align: center;
-}
-
-.second div img{
-    height: 40px;
+    margin: 0;
+    padding: 90px;
+    background-color: #f8f8f8;
+    grid-gap: 20px;
+    color: #505050;
 }
 
 .second div h2{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .second div p{
-    font-size: 13px;
-}
-
-.second div p{
+    font-size: 15px;
     line-height: 25px;
 }
 
+.second div img{
+    height: 50px;
+    margin-bottom: 20px;
+}
+
 .third{
-    text-align: center;
-    margin: 40px 0;
+    margin: 80px auto;
+    text-align:center;
+    color: #616161;
 }
 
-.third .title h1{
-    margin: 0;
+.third .title  h1{
+    font-size: 30px;
+    font-weight: 800;
 }
 
-.third .menu{
-    margin: 20px 0;
+.third .title p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 25px 0;
 }
 
 .third .menu a{
+    margin: 20px 0;
+    display: inline-block;
     text-decoration: none;
     color: #fff;
-    background-color: #e26262;
-    padding: 7px 15px;
-    border-radius: 5px;
-    display: inline-block;
+    padding: 13px 20px;
     font-family: arial;
-}
-
-.third .menu a:hover{
-    background-color: #333;
-    transition: 300ms;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: #f74e4d;
+    text-transform: uppercase;
 }
 
 .third .menu .active{
-    background-color: #333;
+    background-color: #616161;
+}
+
+.third .menu a:hover{
+        background-color: #616161;
 }
 
 .third .gallery{
-    margin: 10px 10%;
+    padding: 10px 75px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 5px;
-}
-
-.third .gallery img{
-    width: 100%;
-}
-
-.third .gallery img:hover{
-    cursor: pointer;
+    grid-gap: 15px;
 }
 
 .fourth{
     text-align: center;
     background-color: #222;
     color: #999;
-    padding: 10px;
+    padding-top: 30px;
+    height: 300px;
     font-size: 14px;
 }
 
 .fourth h2{
-    color: #fff;
-    font-size: 16px;
+    color: #e0e0e0;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.fourth p{
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .fourth .info p{
     margin: 0 10px;
     display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .fourth .info img{
-    width: 12px;
+    width: 10px;
 }
 
 .fourth .contact{
@@ -191,15 +194,17 @@ header img{
 }
 
 .fourth .contact img{
-    height: 20px;
+    margin-top: 10px;
+    height: 35px;
 }
 
 footer{
-    background-color: #111;
+    background-color: #202020;
     text-align: center;
-    height: 50px;
-    color: #999;
-    line-height: 50px;
+    height: 90px;
+    color: #bebebe;
+    font-size: 14px;
+    line-height: 90px;
 }
 
 footer p{
